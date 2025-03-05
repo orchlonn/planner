@@ -25,7 +25,7 @@ export class UsersController {
 
   @Get(':id') // Get /users/:id
   findOne(@Param('id', ParseIntPipe) id: number) {
-    return this.userService.delete(id);
+    return this.userService.findOne(id);
   }
 
   @Post() // Post /users
