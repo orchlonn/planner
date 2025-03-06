@@ -24,7 +24,7 @@ model Employee{
 }
 
 enum Role {
-  INTER 
+  INTERN
   ENGINEER
   ADMIN
 }
